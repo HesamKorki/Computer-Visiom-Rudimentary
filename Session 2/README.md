@@ -12,7 +12,7 @@
 
 - *Understanding the concept of RGB and grayscale*
 
-- *TASKs: 1- differentiate the color channels  2- Blending two images *
+- *TASKs:* 1- differentiate the color channels  2- Blending two images 
 
 ## **Training**
 
