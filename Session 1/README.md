@@ -110,16 +110,10 @@ Here are some integral exploitation:
     ```
 ## **TASK**
 We expect you to perform this task on your own, however, there is a python file attached which contains the answer. The goal is to read an image then concatenate it vertically to its inverted image.
-
 The output should be something like this:
 
 [The answer sample](http://hesamkorki.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-12-at-16.57.21.png)
 
-## **Testing and drawing a box around pedestrians**
-
-We will use class `HOG.detectMultiScale()` in order to get a moveable window through our test image and different scales of our test image. The whole information you need to deal with to comprehend its parameters and functionality is mentioned here:
-
-[HoG.Multiscale() parameters](https://www.pyimagesearch.com/2015/11/16/hog-detectmultiscale-parameters-explained/)
 
 *Had you have any further questions, you are welcome to ask me*
 
