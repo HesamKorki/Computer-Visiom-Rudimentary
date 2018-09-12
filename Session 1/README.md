@@ -88,7 +88,8 @@ One approach for plotting functions in general is using Matplotlib:
     plt.plot(x,np.sin(x))
     plt.plot(x,np.cos(x))
     plt.show()
-   ```
+    ```
+   
 
 
 ## **Cv2**
