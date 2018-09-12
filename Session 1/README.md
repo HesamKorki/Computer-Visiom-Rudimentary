@@ -12,7 +12,7 @@
 
 - *Introducing the mandatory implements: #Python2.7 #Opencv3 #Numpy #CV2*
 
-- *Reading an image and concatenating it with its vertically inverted image*
+- *TASK: Reading an image and concatenating it with its vertically inverted image*
 
 ## **Numpy**
 The most useful package for computer vision is numpy and using it is inevitable. Basically, it would help us do the simple math and whatever you think on arrays. You can find the necessary information and tutorials on their website [NumPy](http://www.numpy.org/).
@@ -108,22 +108,10 @@ Here are some integral exploitation:
     cv2.imshow('arbitrary name for the window',I)
     cv2.waitKey(0)
     ```
-## **SetSVMDetector**
-
-Now that we have our support vector, we can easily set our svmdetector using the class `HOG.setSVMDetector()`.
-
-*One crucial fact about OpenCV’s SVM detector is that it takes the SVM parameters in the following order:*
-
-*the coefficients of support vectors machine followed by the intercept (constant) of the model.*
-
-So it has to be like this:
-```
-supportvectors.append(np.dot(svm.dual_coef_,svm.support_vectors_)[​0​])
-supportvectors.append([svm.intercept_])
-supportvectors = list(itertools.chain(*supportvectors))
-#passing the model params to HOG
-HOG.setSVMDetector(np.array(supportvectors, dtype=np.float64))
-```
+## **TASK**
+We expect you to perform this task on your own, however, there is a python file attached which contains the answer. The goal is to read an image then concatenate it vertically to its inverted image.
+The output should be something like this:
+http://hesamkorki.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-12-at-16.57.21.png
 
 ## **Testing and drawing a box around pedestrians**
 
@@ -136,5 +124,6 @@ We will use class `HOG.detectMultiScale()` in order to get a moveable window thr
 ☑️Email: Hesam.korki@gmail.com
 
 *Hope that you find this helpful.
-Best Regards Hesam Korki*
+Best Regards,
+Hesam Korki*
 
