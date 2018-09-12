@@ -1,36 +1,56 @@
-# **Pedestrian-detection**
+# **Session 1**
 
 #### **Using python 2.7 and opencv 3**
 
-*Welcome to my repository of Pedestrian Detection. We will use #INRIA, #SVC, #HoG, #NMS in this project.*
+*Welcome to the first session of Computer Vision Rudimentary*
 
 ☑️*Contact me: Hesam.korki@gmail.com*
-
-*Classified with the score of 0.95*
 
 *All the rights of this project are reserved for Hesam Korki*
 
 ## **Goals**
 
-- *Compute HoG features from images of a given data set, and extract image patches (both positive and negative examples).*
+- *Introducing the mandatory impelements: #Python2.7 #Opencv3 #Numpy*
 
-- *Train an SVM classifier to perform classification and detection tasks.*
+- *Reading an image and concatenating it with its vertically inverted image*
 
-## **DATASET**
+## **Numpy**
+The most useful package for computer vision is numpy and using it is inevitable. Basically, it would help us do the simple math and whatever you think on arrays. You can find the necessary information and tutorials on their website [NumPy](http://www.numpy.org/).
+After you did install the package, Try these codes and check the results to get to know the usage of this package:
+- Basic Operations: 
+    ```
+    import numpy as np
+    a = np.array([1,2,3])
+    b = np.array([4,5,6])
+    a+b
+    a*b
+    a-b
+    a**b
+    a.dtype
+    a/b
+    
+    ```
+- Slicing:  
+    ```
+    a = np.array([0,10,20,30,40,50,60,70,80,90,100])
+    a[2]
+    a[2:8]
+    a[2:-1]
+    a[8:2:-1]
+    a[::-1]
+    ```
+- 2D arrays(*it is important since we consider an image as a 2D array*):
+    ```
+    A = np.zeroes((4,6), dtype = np.uint8)
+    A
+    A = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+    A[1,2]
+    A[0,-1]
+    A.shape
+    A.shape[0]
+    
+    ```
 
-First things first; in this project we will use the INRIA person dataset for both training and testing, but after training our classifier we can test it on other pictures to. You need to download the dataset from its official website here:
-
-[INRIA PERSON DATASET](http://pascal.inrialpes.fr/data/human/)
-
-- The positive images are extracted from the original images and located (in two different sizes) in directories starting with the patch size (96X160H96, etc.).
-
-- According to the webpage, you should only use the 64x128 central part of these images. The reason why the pictures have been widened in both width and height is brought on the page.
-
-- Dividing the dataset to Train and Test are up to you. Although dataset providers seem to have fixed this, you are free to choose any portion of the dataset for training and the rest for testing.
-
-- Negative images are not provided in 64x128 patches. Read the documentation for details on how to build negative patches from negative images provided. Building the negative data is all up to you.
-
-**_We will get random 64*128 windows for the negative samples._**
 
 ## **HoG Descriptor**
 
