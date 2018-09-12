@@ -15,7 +15,7 @@ Each one of these sessions helps one to acquire the ability to use one of CV's a
 
 ## **Training Part**
 
-This part contains introducing helpful packages for each application, and explaining fruitful functions.
+This part contains introducing helpful packages for each application and explaining fruitful functions.
 The codes and the descriptions are presented in the independent README file of each session. Moreover, there will be python files (.py) in the session's directory, if necessary.
 
 ## **Task Part**
