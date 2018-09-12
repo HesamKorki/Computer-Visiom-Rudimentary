@@ -13,8 +13,8 @@
 - *Understanding the concept of RGB and grayscale*
 
 - *TASKs*:
-  1- differentiate the color channels
-  2- Creating a smooth animation from one image to another 
+  - differentiate the color channels
+  - Creating a smooth animation from one image to another 
 
 ## **Training**
 
