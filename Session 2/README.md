@@ -20,7 +20,7 @@
 
 There are a myriad of ways in which you can read and display an image in python. However, we will be using a particular
 way throughout the sessions which is the most readily one.
-* Remember that OpenCv uses BGR system that is B=0, G=1, R=2*
+####*Remember that OpenCv uses BGR system that is B=0, G=1, R=2*
 Try practicing these because they are very fundamental:
 - Reading and displaying a grayscale image:
     ```
