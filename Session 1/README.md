@@ -78,6 +78,7 @@ After you did install the package, Try these codes and check the results to get 
 One approach for plotting functions in general is using Matplotlib:
 
     ```
+    
     from matplotlib import pyplot as plt
     x = np.arange(0, 2 * np.pi, 0.1)
     x
@@ -88,6 +89,7 @@ One approach for plotting functions in general is using Matplotlib:
     plt.plot(x,np.sin(x))
     plt.plot(x,np.cos(x))
     plt.show()
+    
     ```
    
 
