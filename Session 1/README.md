@@ -6,7 +6,7 @@
 
 ☑️*Contact me: Hesam.korki@gmail.com*
 
-*All the rights of this project are reserved for Hesam Korki*
+*All the rights of this project are reserved for Hesam Korki.*
 
 ## **Goals**
 
@@ -75,7 +75,7 @@ After you did install the package, Try these codes and check the results to get 
 
 
 ## **Matplot**
-One approach for plotting functions in general is using Matplotlib:
+One approach for plotting functions, in general, is using Matplotlib:
 
     
     
@@ -95,8 +95,8 @@ One approach for plotting functions in general is using Matplotlib:
 
 
 ## **Cv2**
-Cv stands for Computer Vision as you may noticed. Generally, all of the image related functions are in this package and we will be using it constantly.
-Here are some integral exploitation:
+Cv stands for Computer Vision as you may notice. Generally, all of the image related functions are in this package, and we will be using it constantly.
+Here are some integral exploitations of this package:
 
 - Reading an image
     ```
@@ -109,13 +109,13 @@ Here are some integral exploitation:
     cv2.waitKey(0)
     ```
 ## **TASK**
-We expect you to perform this task on your own, however, there is a python file attached which contains the answer. The goal is to read an image then concatenate it vertically to its inverted image.
+We expect you to perform this task on your own. However, there is a python file attached which contains the answer. The goal is to read an image then concatenate it vertically to its inverted image.
 The output should be something like this:
 
 [The answer sample](http://hesamkorki.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-12-at-16.57.21.png)
 
 
-*Had you have any further questions, you are welcome to ask me*
+*Had you have any further questions, you are welcome to ask me.*
 
 ☑️Email: Hesam.korki@gmail.com
 
