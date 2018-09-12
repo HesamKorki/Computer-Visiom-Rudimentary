@@ -2,7 +2,7 @@
 
 #### **Using python 2.7 and opencv 3**
 
-*Welcome to the first session of Computer Vision Rudimentary*
+*Welcome to the second session of Computer Vision Rudimentary*
 
 ☑️*Contact me: Hesam.korki@gmail.com*
 
