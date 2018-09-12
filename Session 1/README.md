@@ -10,7 +10,7 @@
 
 ## **Goals**
 
-- *Introducing the mandatory impelements: #Python2.7 #Opencv3 #Numpy*
+- *Introducing the mandatory impelements: #Python2.7 #Opencv3 #Numpy #CV2*
 
 - *Reading an image and concatenating it with its vertically inverted image*
 
@@ -50,34 +50,60 @@ After you did install the package, Try these codes and check the results to get 
     A.shape[0]
     
     ```
+ - Concatenation:
+    ```
+    X = np.array([1,2],[3,4])
+    Y = np.array([10,20,30],[40,50,60])
+    Z = np.array([7,7],[8,8],[9,9])
+    Z
+    X
+    np.concatenate((X,Z))
+    np.concatenate((X,Z), axis=0)
+    Y
+    np.concatenate((X,Y), axis=1)
+    np.vstack((X,Z))
+    np.r_[X,Z]
+    np.hstack(X,Y)
+    np.hstack((X,Y))
+    np.c_[X,Y]
+    Y
+    np.tile(Y,(4,3))
+    
+    ```
+       
 
 
-## **HoG Descriptor**
 
-You can find the official documentation here:
-
-[HoG Descriptor](https://docs.opencv.org/3.4.1/d5/d33/structcv_1_1HOGDescriptor.html)
-
-In order to set the conductor parameter of HoGDescriptor, we will create an XML file.
-
-After reading images and extracting their features with the `HoG.compute()` class, append them to an empty list and give the label of 1 to those including pedestrian in them and 0 to those not including pedestrians.
-
-## **Training our SVM**
-
-In this project, the goal is to use a custom SVM classifier and not ~~the cv2.HOGDescriptor_getDefaultPeopleDetector()~~, and that is the meaning of training.
-
-Now we have to train a SVM classifier. OpenCV provides its implementation of SVM. But since OpenCV’s SVM is not properly documented, we will be using the `SVC (support vector classifier)` class in the scikit-learn library, a very popular machine learning package. Find the documentation here:
-
-[SVC from scikit.svm](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+## **Matplot**
+One approach for plotting functions in general is using Matplotlib:
+    ```
+    from matplotlib import pyplot as plt
+    x = np.arange(0, 2 * np.pi, 0.1)
+    x
+    y = np.cos(x)
+    y
+    plt.plot(x,y)
+    plt.show()
+    plt.plot(x,np.sin(x))
+    plt.plot(x,np.cos(x))
+    plt.show()
+    ```
 
 
-### **Pickle Trick**
+### **Cv2**
+Cv stands for Computer Vision as you may noticed. Generally, all of the image related functions are in this package and we will be using it constantly.
+Here are some integral exploitation:
 
-
-Since the process of training involves reading up to 5000 pictures and extracting their features, it will take time and of course something about 1.5 GB of your RAM.
-
-So we will train our classifier only once and save it with the pickle library and load the file for other times.
-
+- Reading an image
+    ```
+    import cv2
+    I = cv2.imread('the path of the image')
+    ```
+- Monitoring the output
+    ```
+    cv2.imshow('arbitrary name for the window',I)
+    cv2.waitKey(0)
+    ```
 ## **SetSVMDetector**
 
 Now that we have our support vector, we can easily set our svmdetector using the class `HOG.setSVMDetector()`.
