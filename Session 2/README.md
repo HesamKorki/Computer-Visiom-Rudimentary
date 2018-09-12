@@ -18,10 +18,10 @@
 
 ## **Training**
 
-There are a myriad of ways in which you can read and display an image in python. However, we will be using a particular
-way throughout the sessions which is the most readily one.
+There is a myriad of ways in which you can read and display an image in python. However, we will be using a particular
+style throughout the sessions which is the most readily one.
 
-**_Remember that OpenCv uses BGR system that is B=0, G=1, R=2_**
+**_Remember that OpenCv uses BGR system that is B=0, G=1, R=2._**
 
 Try practicing these because they are very fundamental:
 - Reading and displaying a grayscale image:
@@ -86,7 +86,7 @@ You should write a code that would read a colored image(masoleh.jpg), and displa
 To illustrate, when you press "b" on the keyboard, you should get only blue parts of the image.
 
 ### *Task2*
-Make an animated smooth transition from image​ I​ to ​J​. You can use cv2.waitKey(n) to delay for n milliseconds. Conspicuously, you should use Blending.
+Make an animated smooth transition from the image​ I​ to ​J​. You can use cv2.waitKey(n) to delay for n milliseconds. Conspicuously, you should use Blending.
 
 *Had you have any further questions, you are welcome to ask me.*
 
