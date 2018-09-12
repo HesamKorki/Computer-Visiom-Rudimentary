@@ -119,7 +119,8 @@ The output should be something like this:
 
 ☑️Email: Hesam.korki@gmail.com
 
-*Hope that you find this helpful.
-Best Regards,
+*Hope that you find this helpful.*
+
+*Best Regards,
 Hesam Korki*
 
