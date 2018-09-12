@@ -121,7 +121,6 @@ The output should be something like this:
 
 *Hope that you find this helpful.*
 
-*Best Regards,
-
-Hesam Korki*
+*Best Regards,*
+**Hesam Korki**
 
