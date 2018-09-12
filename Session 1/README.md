@@ -110,8 +110,10 @@ Here are some integral exploitation:
     ```
 ## **TASK**
 We expect you to perform this task on your own, however, there is a python file attached which contains the answer. The goal is to read an image then concatenate it vertically to its inverted image.
+
 The output should be something like this:
-http://hesamkorki.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-12-at-16.57.21.png
+
+[The answer sample](http://hesamkorki.com/wp-content/uploads/2018/09/Screen-Shot-2018-09-12-at-16.57.21.png)
 
 ## **Testing and drawing a box around pedestrians**
 
