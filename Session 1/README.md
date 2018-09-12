@@ -13,8 +13,9 @@
 - *Introducing the mandatory implements: #Python2.7 #Opencv3 #Numpy #CV2*
 
 - *TASK: Reading an image and concatenating it with its vertically inverted image*
+## **Training**
 
-## **Numpy**
+### **Numpy**
 The most useful package for computer vision is numpy and using it is inevitable. Basically, it would help us do the simple math and whatever you think on arrays. You can find the necessary information and tutorials on their website [NumPy](http://www.numpy.org/).
 After you did install the package, Try these codes and check the results to get to know the usage of this package:
 - Basic Operations: 
@@ -74,7 +75,7 @@ After you did install the package, Try these codes and check the results to get 
 
 
 
-## **Matplot**
+### **Matplot**
 One approach for plotting functions, in general, is using Matplotlib:
 
     
@@ -94,7 +95,7 @@ One approach for plotting functions, in general, is using Matplotlib:
    
 
 
-## **Cv2**
+### **Cv2**
 Cv stands for Computer Vision as you may notice. Generally, all of the image related functions are in this package, and we will be using it constantly.
 Here are some integral exploitations of this package:
 
