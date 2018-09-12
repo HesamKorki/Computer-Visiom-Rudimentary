@@ -10,7 +10,7 @@
 
 ## **Goals**
 
-- *Introducing the mandatory impelements: #Python2.7 #Opencv3 #Numpy #CV2*
+- *Introducing the mandatory implements: #Python2.7 #Opencv3 #Numpy #CV2*
 
 - *Reading an image and concatenating it with its vertically inverted image*
 
@@ -88,7 +88,7 @@ One approach for plotting functions in general is using Matplotlib:
     plt.plot(x,np.sin(x))
     plt.plot(x,np.cos(x))
     plt.show()
-    ```
+   ```
 
 
 ## **Cv2**
