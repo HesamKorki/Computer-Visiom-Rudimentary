@@ -76,6 +76,7 @@ After you did install the package, Try these codes and check the results to get 
 
 ## **Matplot**
 One approach for plotting functions in general is using Matplotlib:
+
     ```
     from matplotlib import pyplot as plt
     x = np.arange(0, 2 * np.pi, 0.1)
@@ -90,7 +91,7 @@ One approach for plotting functions in general is using Matplotlib:
     ```
 
 
-### **Cv2**
+## **Cv2**
 Cv stands for Computer Vision as you may noticed. Generally, all of the image related functions are in this package and we will be using it constantly.
 Here are some integral exploitation:
 
