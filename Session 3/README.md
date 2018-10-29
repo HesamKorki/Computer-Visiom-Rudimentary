@@ -13,7 +13,7 @@
 - *Reading and displaying videos*
 - *Working with histograms*
 
-- *TASKs*:
+## *TASKs*
 - *Reversing a video*
 - *Expanding the histogram*
 
@@ -50,7 +50,7 @@ while True:
 ​cv2.destroyAllWindows()
 ​
 ```
-*_ key = cv2.waitKey(33) creates a delay of 33 milisecond, and actually this delay is the definition of fps (frame per second). Try changing it to 2 or 299 and see what happens. _*
+* key = cv2.waitKey(33) creates a delay of 33 milisecond, and actually this delay is the definition of fps (frame per second). Try changing it to 2 or 299 and see what happens. *
 
 The following code reads a video called "eggs.avi" and then, saves the frames into another video named "eggs-reverse.avi".
 
@@ -101,7 +101,7 @@ plt.show()
 
 Now we know how to get histogram of a pictute in python and plot it. Plus, we received some information about videos and working with them in python. Hence, it is the time to assess our knowledge.
 
-*_DO NOT just read the train part and pass. Try these codes on your own platform and feel the results _*
+**DO NOT just read the train part and pass. Try these codes on your own platform and feel the results. **
 ## **TASKs**
 We expect you to perform these tasks on your own. However, there are python files attached which contains the answers.
 
@@ -110,7 +110,7 @@ Remember that "reverse-eggs.avi" that we saved to our disk. Write a code that wo
 
 ### *Task2*
 We want to linearly expand the histogram to get a better contrast. Determine points ​a​ and ​b​ for linear histogram expansion according to the original image's histogram. There are several grayscale images in this session's directory that you can use either one of them. Now, you should fill the 2*3 subplot. First column , the original image and its histogram. Second column, the linear expanded image and its histogram. Third column, the histogram equalized picture and its histogram.
-*hint:*
+### *hint:*
 - *Values of 'a' and 'b' are the least and the most value possible for the histogram, respectively.*
 - *There is a function in OpenCV that would get equalized histogram from any picture, you can find it [here](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.html?highlight=cv2.equalizehist#cv2.equalizeHist).
 
