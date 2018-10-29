@@ -19,7 +19,7 @@
 
 ## **Training**
 
-This session is comprised of two different parts. first of which is pertinent to videos and working with them in python.
+This session is comprised of two different parts. First of which is pertinent to videos and working with them in python.
 
 ### **Part 1: Videos**
 
@@ -80,7 +80,7 @@ while​ ​True​:
 
 ### **Part 2: Histograms**
 
-In this part we use matplotlib (not OpenCV) in order to show histograms, for it is more convinient and we can see the histogram and the picture itself simultaneously.
+In this part, we use "matplotlib" (not OpenCV) to show histograms, for it is more convenient and we can see the histogram and the picture itself simultaneously.
 
 ```
 import​ cv2
@@ -96,12 +96,12 @@ axes[1,0].hist(I.ravel(),256,[0,256]);
 plt.show()
 
 ```
-**plt.subplots(2,3)​creates a 2 by 3 array of subplots (2 rows, 3 columns). By running the above code, you can see that only the first column of the subplots are used (axes[0,0] and axes[1,0]). The image is plotted in axes[0,0] and its histogram in axes[1,0].**
+**plt.subplots(2,3)​ creates a 2 by 3 array of subplots (2 rows, 3 columns). By running the above code, you can see that only the first column of the subplots are used (axes[0,0] and axes[1,0]). The image is plotted in axes[0,0] and its histogram in axes[1,0].**
 
 
-Now we know how to get histogram of a pictute in python and plot it. Plus, we received some information about videos and working with them in python. Hence, it is the time to assess our knowledge.
+Now we know how to get the histogram of a picture in python and plot it. Plus, we received some information about videos and working with them in python. Hence, it is the time to assess our knowledge.
 
-**DO NOT just read the train part and pass. Try these codes on your own platform and feel the results. **
+**DO NOT just read the train part and pass. Try these codes on your platform and feel the results. **
 ## **TASKs**
 We expect you to perform these tasks on your own. However, there are python files attached which contains the answers.
 
@@ -109,7 +109,7 @@ We expect you to perform these tasks on your own. However, there are python file
 Remember that "reverse-eggs.avi" that we saved to our disk. Write a code that would read the "eggs.avi" and save the frames in reverse order. In other words, "reverse-eggs.avi" should be a backward playback of "eggs.avi". Feel free to run your code on any other video, and it must work.
 
 ### *Task2*
-We want to linearly expand the histogram to get a better contrast. Determine points ​a​ and ​b​ for linear histogram expansion according to the original image's histogram. There are several grayscale images in this session's directory that you can use either one of them. Now, you should fill the 2*3 subplot. First column , the original image and its histogram. Second column, the linear expanded image and its histogram. Third column, the histogram equalized picture and its histogram.
+We want to expand the histogram linearly. Determine points '​a'​ and '​b'​ for linear histogram expansion according to the original image's histogram. There are several grayscale images in this session's directory that you can use either one of them. Now, you should fill the 2*3 subplot. The first column, the original image, and its histogram. The second column, the linear expanded image, and its histogram. The third column, the histogram equalized picture, and its histogram.
 ### *Hint:*
 - *Values of 'a' and 'b' are the least and the most value possible for the histogram, respectively.*
 - *There is a function in OpenCV that would get equalized histogram from any picture, you can find it [here](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.html?highlight=cv2.equalizehist#cv2.equalizeHist).
