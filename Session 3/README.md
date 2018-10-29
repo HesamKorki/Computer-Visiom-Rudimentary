@@ -13,7 +13,7 @@
 - *Reading and displaying videos*
 - *Working with histograms*
 
-## *TASKs*
+## *Tasks*
 - *Reversing a video*
 - *Expanding the histogram*
 
@@ -110,7 +110,7 @@ Remember that "reverse-eggs.avi" that we saved to our disk. Write a code that wo
 
 ### *Task2*
 We want to linearly expand the histogram to get a better contrast. Determine points ​a​ and ​b​ for linear histogram expansion according to the original image's histogram. There are several grayscale images in this session's directory that you can use either one of them. Now, you should fill the 2*3 subplot. First column , the original image and its histogram. Second column, the linear expanded image and its histogram. Third column, the histogram equalized picture and its histogram.
-### *hint:*
+### *Hint:*
 - *Values of 'a' and 'b' are the least and the most value possible for the histogram, respectively.*
 - *There is a function in OpenCV that would get equalized histogram from any picture, you can find it [here](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.html?highlight=cv2.equalizehist#cv2.equalizeHist).
 
