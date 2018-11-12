@@ -31,7 +31,7 @@ apprehend the following code and run it for yourself.
 ```
 import​ numpy ​as​ np
 import​ cv2
-I​ = cv2.imread(​'isfahan.jpg'​, cv2.IMREAD_GRAYSCALE);
+I​ = cv2.imread(​'Google_HQ.jpg'​, cv2.IMREAD_GRAYSCALE);
 # convert I to floating point from unsigned integer
 # Note: For displaying floating point images the maximum
 # intensity has to be 1 instead of 255
@@ -61,7 +61,7 @@ If you are not familiar with the box filter and its application, try reading [th
 ```
 import​ numpy ​as​ np
 import​ cv2
-I​ = cv2.imread(​'isfahan.jpg'​).astype(np.float64) / 255;
+I​ = cv2.imread(​'Google_HQ.jpg'​).astype(np.float64) / 255;
 # display the original image
 cv2.imshow(​'original'​,I)
 cv2.waitKey()
@@ -88,7 +88,7 @@ The actual outline of what we are doing here is creating a 1D Gaussian kernel at
 ```
 import​ numpy ​as​ np
 import​ cv2
-I​ = cv2.imread(​'isfahan.jpg'​).astype(np.float64) / 255;
+I​ = cv2.imread(​'Apple_HQ.jpg'​).astype(np.float64) / 255;
 m​ =13; ​#we will create an m by m filter
 # create a 1D Gaussian filter
 Fg​ = cv2.getGaussianKernel(m, sigma=-1);
