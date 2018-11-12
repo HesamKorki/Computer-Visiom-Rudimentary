@@ -77,8 +77,8 @@ cv2.waitKey()
 cv2.destroyAllWindows()
 
 ```
-      - Alter the value of "m" and see what happens.
-      - Why division by (m*m) in F​ = np.ones((m,m), np.float64)/(m*m)?
+   - Alter the value of "m" and see what happens.
+   - Why division by (m*m) in F​ = np.ones((m,m), np.float64)/(m*m)?
 
 
 - __Guassian Kernel__
@@ -112,8 +112,8 @@ cv2.waitKey()
 cv2.imshow(​'blurred_Gaussian'​,Jg) cv2.waitKey()
 cv2.destroyAllWindows()
 ```
-     - Alter the value of "m" and check what changes.
-     - This approach is for understanding deeply, you can easily use [guassianblur](https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html#void%20GaussianBlur(InputArray%20src,%20OutputArray%20dst,%20Size%20ksize,%20double%20sigmaX,%20double%20sigmaY,%20int%20borderType)) function.
+   - Alter the value of "m" and check what changes.
+   - This approach is for understanding deeply, you can easily use [guassianblur](https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html#void%20GaussianBlur(InputArray%20src,%20OutputArray%20dst,%20Size%20ksize,%20double%20sigmaX,%20double%20sigmaY,%20int%20borderType)) function.
 
 **DO NOT just read the train part and pass. Try these codes on your platform and feel the results.**
 
