@@ -53,7 +53,7 @@ cv2.destroyAllWindows()
 
 ### **Part 2: Image Smoothing/Blurring**
 
-- __Box Filter__
+#### __Box Filter__
 
 If you are not familiar with the box filter and its application, try reading [this document](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/filtering.html?highlight=box%20filter#cv2.boxFilter).
 
@@ -81,7 +81,7 @@ cv2.destroyAllWindows()
    - Why division by (m*m) in F​ = np.ones((m,m), np.float64)/(m*m)?
 
 
-- __Guassian Kernel__
+#### __Guassian Kernel__
 
 The actual outline of what we are doing here is creating a 1D Gaussian kernel at first. Then, make it a 2D kernel out of the 1D kernel and after that apply it to the image.
 
